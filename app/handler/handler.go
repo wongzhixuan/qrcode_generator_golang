@@ -4,7 +4,6 @@ import (
 	"bytes"
 	"fmt"
 	"image"
-	"log"
 	"mime/multipart"
 	"net/http"
 	"qrcode_generator/app/utils/converter"
@@ -32,7 +31,6 @@ func GenerateQRCode(c *gin.Context) {
 		return
 	}
 
-	log.Println(i)
 	if i.Size < 45 {
 		i.Size = 200
 	}
