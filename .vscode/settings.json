@@ -1,0 +1,12 @@
+{
+    "editor.formatOnSave": true,
+    "vs-kubernetes": {
+        "disable-linters": [
+            "resource-limits"
+        ],
+    },
+    "editor.tabSize": 2,
+    "github-actions.workflows.pinned.workflows": [
+        ".github/workflows/deploy.yaml"
+    ]
+}

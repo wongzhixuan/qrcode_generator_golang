@@ -1,0 +1,19 @@
+{
+    "version": "0.0.1",
+    "configurations": [
+        {
+            "name": "QR Code Generator",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceRoot}",
+            "cwd": "${workspaceRoot}",
+            "envFile": [
+                "${workspaceRoot}/.vscode/env/development.env",
+            ],
+            "env": {
+                "SERVICE_NAME": "qrcode_generator",
+            }
+        }
+    ]
+}
