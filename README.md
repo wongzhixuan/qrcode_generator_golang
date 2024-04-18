@@ -8,7 +8,7 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)]([https://github.com/zhixuanqwert/qrcode_generator_golang/issues](https://github.com/zhixuanqwert/qrcode_generator_golang/issues))
+[![GitHub Issues](https://img.shields.io/github/issues/zhixuanqwert/qrcode_generator_golang.svg)]([https://github.com/zhixuanqwert/qrcode_generator_golang/issues](https://github.com/zhixuanqwert/qrcode_generator_golang/issues))
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)]([https://github.com/zhixuanqwert/qrcode_generator_golang/](https://github.com/zhixuanqwert/qrcode_generator_golang/pulls))
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
