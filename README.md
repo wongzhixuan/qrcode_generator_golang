@@ -22,11 +22,10 @@
 - [Getting Started](#getting_started)
 - [Usage](#usage)
 - [Built Using](#built_using)
-<!-- - [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md) -->
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
-
+<!-- - [TODO](../TODO.md)
+- [Contributing](../CONTRIBUTING.md) -->
 ## 🧐 About <a name = "about"></a>
 
 qr code generator apis to generate qrcodes from a content
