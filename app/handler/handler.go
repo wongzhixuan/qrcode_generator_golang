@@ -17,16 +17,16 @@ import (
 
 func GenerateQRCode(c *gin.Context) {
 	var i struct {
-		Content            string                `json:"content" binding:"required"`
-		Size               int                   `json:"size" binding:""`
-		IsSaveToFile       bool                  `json:"save" binding:"boolean"`
-		FileName           string                `json:"filename" binding:""`
-		FileType           string                `json:"filetype" binding:""`
-		IsWatermarkEnabled bool                  `json:"watermark" binding:"boolean"`
-		WatermarkFile      *multipart.FileHeader `json:"watermarkfile" binding:""`
+		Content            string                `form:"content" json:"content" binding:"required"`
+		Size               int                   `form:"size" json:"size" binding:""`
+		IsSaveToFile       bool                  `form:"save" json:"save" binding:"boolean"`
+		FileName           string                `form:"filename" json:"filename" binding:""`
+		FileType           string                `form:"filetype" json:"filetype" binding:""`
+		IsWatermarkEnabled bool                  `form:"watermark" json:"watermark" binding:"boolean"`
+		WatermarkFile      *multipart.FileHeader `form:"watermarkfile" json:"watermarkfile" binding:""`
 	}
 
-	if err := c.ShouldBindJSON(&i); err != nil {
+	if err := c.ShouldBind(&i); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 		return
 	}
