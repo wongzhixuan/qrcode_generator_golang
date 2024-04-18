@@ -34,13 +34,14 @@ qr code generator apis to generate qrcodes from a content
 
 clone the project and make sure necessary dependencies are installed
 
-<!-- ### Prerequisites
+### Prerequisites
 
-What things you need to install the software and how to install them.
+Create new folder resources/qrcode and assets before run the project
 
 ```
-Give examples
-``` -->
+mkdir resources/qrcode
+mkdir assets
+``` 
 
 <!-- ### Installing
 
