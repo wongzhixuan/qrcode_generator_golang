@@ -65,6 +65,7 @@ End with an example of getting some data out of the system or using it for a lit
 ```
 ENV=DEV PORT=8080 go run main.go
 ```
+or using visual studio code debug
 
 ## 🎈 Usage <a name="usage"></a>
 
@@ -100,5 +101,7 @@ http://localhost:port/generate
 
 - Barcode generation are based on boombuler/barcode
 - Inspiration
+Inspired by
+https://www.twilio.com/en-us/blog/generate-qr-code-with-go
 - References
 https://github.com/boombuler/barcode
